@@ -1,0 +1,50 @@
+:root {
+  scroll-behavior: smooth;
+
+  // brand colors
+  --c-brand: #936edb !important;
+  --c-brand-light: #b39ae6 !important;
+  
+  // custom tip
+  --c-tip: #b39ae6 !important;
+}
+
+html, body, #app, .theme-container {
+  min-height: 100vh;
+}
+
+html.dark {
+  // brand colors
+  --c-brand: #936edb !important;
+  --c-brand-light: #b39ae6 !important;
+
+  // custom tip
+  --c-tip: #b39ae6 !important;
+}
+
+// Home modifications
+.home, .hero {
+  min-height: calc(100vh - var(--navbar-height));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .hero img {
+  margin: 0 auto;
+}
+
+.home .hero h1 {
+  margin: 0 auto !important;
+}
+
+// General modifications
+.theme-default-content div {
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-default-content div table {
+  align-self: center;
+}
