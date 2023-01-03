@@ -1,0 +1,1 @@
+import{_ as c,p as a,q as r,R as e,t}from"./framework-96b046e1.js";const o={},i=e("h1",{id:"privacy-policy",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#privacy-policy","aria-hidden":"true"},"#"),t(" Privacy Policy")],-1),s=[i];function n(_,d){return a(),r("div",null,s)}const p=c(o,[["render",n],["__file","privacy.html.vue"]]);export{p as default};

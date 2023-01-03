@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e0bdb92a","path":"/terms.html","title":"Terms of Service","lang":"en-US","frontmatter":{"sidebar":false},"headers":[],"git":{"updatedTime":1672769463000},"filePathRelative":"terms.md"}');export{e as data};
